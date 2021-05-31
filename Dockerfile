@@ -10,7 +10,6 @@ LABEL name="alpine-python"
 #    Push:  docker push registry.TBD
 # Use for Development, and local testing:
 #    docker run -it --rm -v $PWD:/solutions-toolkit-talent -w /solutions-toolkit-talent --env-file .env itsme/alpine-python
-#    docker run -t -v $PWD:/solutions-toolkit-talent -w /solutions-toolkit-talent --env-file .env itsme/alpine-python python3 skills_histo.py
 #
 #    docker build -t itsme/apline-linux . 
 #    docker run -it --rm --env-file .env itsme/apline-linux
