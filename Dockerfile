@@ -32,7 +32,7 @@ RUN pip install sortedcontainers
 #RUN apk add --no-cache py3-yaml
 #RUN pip install google-cloud-talent
 
-# Google Cloud SDK
+# Instll Google Cloud SDK
 # ------------------------------------
 # Note: the gcloud command is currently not needed, but here are the steps to install if needed
 # From gcloud sdk https://cloud.google.com/sdk/docs/install
@@ -44,6 +44,9 @@ RUN echo "export PATH=$PATH:/google-cloud-sdk/bin" >/etc/profile.d/zGoogleClouds
 RUN chmod +x /etc/profile.d/zGoogleCloudsdk.sh
 RUN ./google-cloud-sdk/install.sh --path-update true --command-completion false --rc-path /etc/profile.d/zGoogleCloudsdk.sh --usage-reporting false
 RUN ./etc/profile.d/zGoogleCloudsdk.sh
+# Update gloud
+RUN /google-cloud-sdk/bin/gcloud config set disable_usage_reporting false
+RUN /google-cloud-sdk/bin/gcloud components update
 # gcloud init
 # ------------------------------------
 
