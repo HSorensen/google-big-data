@@ -1,13 +1,5 @@
 FROM alpine
 LABEL name="alpine-python"
-# Local 
-#    Build: docker build -t itsme/alpine-python .  
-#    Test:  docker run -it -v testui:/testui itsme/alpine-python
-#    Versions: docker run -t itsme/alpine-python cat VERSIONS
-# Remote
-#    Login: docker login registry.TBD.com
-#    Build: docker build -t registry.TBD .
-#    Push:  docker push registry.TBD
 # Use for Development, and local testing:
 #    docker run -it --rm -v $PWD:/solutions-toolkit-talent -w /solutions-toolkit-talent --env-file .env itsme/alpine-python
 #
