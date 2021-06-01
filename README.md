@@ -21,3 +21,12 @@ Learn more about big data infrastructure:
 - Pricing: https://cloud.google.com/pricing/
 
 We'll keep the module resources links up-to-date with the latest news and tips. Found a great blog post? Share it in the forums so everyone can benefit.
+
+
+## Stay up to date with the latest resources on migrating your workloads to the cloud:
+
+- [Migrating Hadoop to Google Cloud Platform[(https://cloud.google.com/solutions/migration/hadoop/hadoop-gcp-migration-overview)
+- [Cloud SQL Documentation](https://cloud.google.com/sql/)
+- [Cloud SQL Release blog](https://cloud.google.com/blog/products/databases/)
+- [Cloud Dataproc Documentation](https://cloud.google.com/dataproc/)
+- [Cloud Dataproc Release blog](https://cloud.google.com/blog/products/dataproc)
