@@ -1,10 +1,10 @@
 FROM alpine
-LABEL name="alpine-python"
+LABEL name="alpine-gcloud"
 # Use for Development, and local testing:
-#    docker run -it --rm -v $PWD:/solutions-toolkit-talent -w /solutions-toolkit-talent --env-file .env itsme/alpine-python
+#    docker run -it --rm -v $PWD:/google-big-data -w /google-big-data --env-file .env itsme/alpine-linux
 #
-#    docker build -t itsme/apline-linux . 
-#    docker run -it --rm --env-file .env itsme/apline-linux
+#    docker build -t itsme/alpine-linux . 
+#    docker run -it --rm --env-file .env itsme/alpine-linux
 
 RUN apk update
 RUN apk upgrade
