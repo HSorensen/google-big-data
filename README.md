@@ -56,3 +56,12 @@ In the previous two tasks you saw the power of feature engineering at work in im
 - [BigQuery ML - Creating a k-means clustering model](https://cloud.google.com/bigquery-ml/docs/kmeans-tutorial)
 - [Blog Post: Building a data science team](https://towardsdatascience.com/how-to-hire-a-machine-learning-team-b8055fff57f)
 - [Blog Post:  Ten roles for your data science team](https://hackernoon.com/top-10-roles-for-your-data-science-team-e7f05d90d961)
+
+## Dataflow Module Resources
+- [Cloud Pub/Sub documentation](https://cloud.google.com/pubsub/docs/) 
+- [Cloud Pub/Sub blog](https://cloud.google.com/pubsub/docs/release-notes)
+- [Cloud Dataflow documentation](https://cloud.google.com/dataflow/docs/)
+- [Cloud Dataflow blog](https://cloud.google.com/blog/products/data-analytics/)
+- [Cloud Dataflow templates](https://github.com/GoogleCloudPlatform/DataflowTemplates/)
+- [Data Studio documentation](https://developers.google.com/datastudio/)
+- [Data Studio templates](https://datastudiogallery.appspot.com/gallery)
